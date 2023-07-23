@@ -2,7 +2,8 @@ import Image from "next/image";
 import Link from "next/link";
 
 const ProductCard = ({ product }) => {
-  const { _id, name, price, image_url, category, stock, currency } = product;
+  console.log('Hello',product);
+  const { id, name, price, image_url, category, stock, currency } = product;
   return (
     <div className="card w-64 p-2 border-solid border-2 border-sky-500 shadow-xl hover:shadow-3xl transform hover:-translate-y-1 transition-all duration-300">
       <figure className="px-6 pt-2">
@@ -24,7 +25,7 @@ const ProductCard = ({ product }) => {
           {price} {currency}
         </h6>
 
-        <Link href={`/products/${_id}`}>
+        <Link href={`/products/${id}`}>
           <button className="btn  btn-primary  btn-sm">Show Detail</button>
         </Link>
       </div>
