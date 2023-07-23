@@ -1,5 +1,6 @@
-import MainLayout from "@/layouts/mainLayout";
+
 import Image from "next/image";
+import MainLayout from '../../layouts/mainLayout';
 
 const ProductDetailPage = ({ product }) => {
   const {
@@ -70,7 +71,7 @@ ProductDetailPage.getLayout = function getLayout(page) {
 export const getServerSideProps = async (context) => {
   const { params } = context;
   const res = await fetch(
-    `https://cow-hut-as-3.vercel.app/api/v1/cows/${params.productId}`
+    `https://cow-hut-ten.vercel.app/api/v1/cows/${params.productId}`
   );
   const data = await res.json();
 

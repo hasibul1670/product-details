@@ -24,7 +24,7 @@ Home.getLayout = function getLayout(page) {
 };
 
 export const getServerSideProps = async () => {
-  const res = await fetch("https://cow-hut-as-3.vercel.app/api/v1/cows");
+  const res = await fetch("https://cow-hut-ten.vercel.app/api/v1/cows");
   const data = await res.json();
   return {
     props: {

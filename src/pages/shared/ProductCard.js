@@ -6,7 +6,7 @@ const ProductCard = ({ product }) => {
  
  
   return (
-    <div className="card w-64 p-2 border-solid border-2 border-sky-500 shadow-xl hover:shadow-3xl transform hover:-translate-y-1 transition-all duration-300">
+    <div className="card w-58 h-96 p-1 border-solid border-2 border-sky-500 shadow-xl hover:shadow-3xl transform hover:-translate-y-1 transition-all duration-300">
       <figure className="px-6 pt-2">
         <Image
           alt="example"

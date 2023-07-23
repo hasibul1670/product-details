@@ -13,8 +13,7 @@ const BookPage = () => {
   
   });
 
-  
-  console.log('Hellodsdsdsds',data);
+
   const [searchText, setSearchText] = useState("");
   const [selectedGenre, setSelectedGenre] = useState("");
   const [selectedYear, setSelectedYear] = useState("");
@@ -22,7 +21,7 @@ const BookPage = () => {
   const dispatch = useAppDispatch();
   const { priceRange,status } = useAppSelector((state) => state.product);
 
-  const booksData = data?.data?.data;
+  const booksData = data?.data;
   let filteredData = booksData;
 
 
@@ -36,7 +35,7 @@ const BookPage = () => {
     dispatch(setPriceRange(value[0]));
   };
 
-  filteredData = data?.data?.data.filter((item) => {
+  filteredData = data?.data?.filter((item) => {
     if (status) {
       return item.status === true && item.price < priceRange;
     }
