@@ -1,4 +1,5 @@
-import MainLayout from "@/layouts/mainLayout";
+
+import MainLayout from "../layouts/mainLayout";
 import ProductCard from "./shared/ProductCard";
 
 const Product = ({ allProducts }) => {

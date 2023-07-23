@@ -1,7 +1,8 @@
-import MainLayout from "@/layouts/mainLayout";
+
 import Head from "next/head";
 
 import Product from "./products";
+import MainLayout from "../layouts/mainLayout";
 
 export default function Home({ allProducts }) {
   return (

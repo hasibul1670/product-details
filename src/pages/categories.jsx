@@ -1,14 +1,18 @@
-import MainLayout from "@/layouts/mainLayout";
+
 import { useState } from "react";
 import Fuse from "fuse.js";
 import BookFilter from "./ProductFilter";
 import ProductCard from "./shared/ProductCard";
-import { useGetProductsQuery } from "@/redux/product/productApi";
-import { useAppDispatch, useAppSelector } from "@/redux/hook";
-import { setPriceRange } from "@/redux/product/productSlice";
+import MainLayout from "../layouts/mainLayout";
+import { setPriceRange } from "../redux/product/productSlice";
+import { useGetProductsQuery } from "../redux/product/productApi";
+import { useAppDispatch, useAppSelector } from '../redux/hook';
+
+
+
 
 const BookPage = () => {
-  const { data, isLoading } = useGetProductsQuery(undefined, {
+  const { data, isLoading } = useGetProductsQuery (undefined, {
     refetchOnMountOrArgChange: true,
   
   });

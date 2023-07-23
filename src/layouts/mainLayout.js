@@ -1,5 +1,7 @@
-import Footer from "@/pages/shared/Footer";
-import NavBar from "@/pages/shared/Navbar";
+import Footer from '../pages/shared/Footer';
+import NavBar from '../pages/shared/Navbar';
+
+
 
 export default function MainLayout({ children }) {
   return (
