@@ -73,7 +73,7 @@ export const getServerSideProps = async (context) => {
     `https://cow-hut-as-3.vercel.app/api/v1/cows/${params.productId}`
   );
   const data = await res.json();
-  // console.log(data);
+
 
   return {
     props: {
