@@ -3,8 +3,8 @@ import Link from "next/link";
 
 const ProductCard = ({ product }) => {
   console.log("Hello", product);
-  const { name, price, image_url, category, stock, currency } = product;
-  const _id = product?.id;
+  const { name,_id, price, image_url, category, stock, currency } = product;
+ 
   return (
     <div className="card w-64 p-2 border-solid border-2 border-sky-500 shadow-xl hover:shadow-3xl transform hover:-translate-y-1 transition-all duration-300">
       <figure className="px-6 pt-2">
