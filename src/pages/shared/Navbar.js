@@ -1,5 +1,7 @@
+import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
+import logo from "../../assets/Image/logo.png"
 
 const NavBar = () => {
   const [isDropdownOpen, setDropdownOpen] = useState(false);
@@ -86,7 +88,16 @@ const NavBar = () => {
         </div>
 
         <Link href="/" className="btn btn-ghost normal-case text-white text-xl">
-          Sunlight{" "}
+         
+
+         <Image
+          alt="example"
+          src={logo}
+          height={40}
+          width={180}
+          responsive
+        />
+
         </Link>
       </div>
 

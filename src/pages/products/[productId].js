@@ -1,6 +1,7 @@
 
 import Image from "next/image";
 import MainLayout from '../../layouts/mainLayout';
+import Swal from "sweetalert2"
 
 const ProductDetailPage = ({ product }) => {
   const {
@@ -16,7 +17,16 @@ const ProductDetailPage = ({ product }) => {
 
 
 
-
+const handleBuyNow =()=>{
+  Swal.fire({
+    position: 'top-middle',
+    icon: 'success',
+    title: 'Your Order has been Placed',
+    showConfirmButton: false,
+    timer: 2500
+  })
+  
+}
 
   return (
     <div className="py-20">
@@ -53,11 +63,13 @@ const ProductDetailPage = ({ product }) => {
                   </li>
                 ))}
               </ul>
+              <button onClick={()=>handleBuyNow()} className="btn btn-primary p-2 m-2">Buy Now</button>
             </div>
             <hr className="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700"></hr>
           </div>
         </div>
       </div>
+  
     </div>
   );
 };
