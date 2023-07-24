@@ -1,39 +1,44 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Product-Details-Application
 
-## Getting Started
+#### "Welcome to our online shopping platform, where we offer a seamless and delightful shopping experience. Explore our vast product showcase featuring a wide range of items, from electronics to clothing and home decor. Easily find what you're looking for using our powerful search functionality, and filter products by price to discover the best deals within your budget. Additionally, our intuitive category filter allows you to browse products based on your interests. Each product comes with its own dedicated page, providing in-depth details and customer reviews. Enjoy a convenient and secure shopping experience with us!"
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+### Git Commit Messages
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- feat: Introducing New Features
+- fix: Fixing Bugs
+- chore: Miscellaneous Changes
+- refactor: Code Refactoring
+- docs: Documentation Updates
+- style: Code Formatting
+- test: Testing Updates
+- perf: Performance Improvements
+- ci: Continuous Integration
+- cd: Continuous Deployment
+- build: BuildSystem Updates
+- revert: Reverting Changes
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+### Features
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+- Product Showcase
+- Individual Product Show
+- Search Functionality
+- Filter product by Price
+- Filter Product as Category
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+### Technologies Used
 
-To learn more about Next.js, take a look at the following resources:
+- Frontend:NextJS,Redux,
+- Backend: Node.js,Express.js,Typescript
+- Database: MongoDB
+- Deployment: Vercel
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+  ### Email: hasibulislam1670@gmail.com
+  ### Website: https://product-details007.vercel.app/
+  ### GitHub: https://github.com/hasibul1670
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-# product-details
