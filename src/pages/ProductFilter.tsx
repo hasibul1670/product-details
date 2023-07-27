@@ -26,7 +26,7 @@ const BookFilter = ({
       <input
         type="text"
         className="input input-bordered input-primary w-full max-w-xs mb-3"
-        placeholder="Search by title, author, or genre"
+        placeholder="Search by Name,category,brand"
         value={searchText}
         onChange={(e) => setSearchText(e.target.value)}
       />
